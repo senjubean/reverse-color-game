@@ -1,0 +1,131 @@
+body {
+   margin:0px;
+    background-color: #bdbdbd;
+    transition: .5s;
+    -moz-transition: .5s;
+      
+}
+
+button {
+    padding: .66rem;
+    border: none;
+    background-color: whitesmoke;
+    font-size: large;
+    transition: .3s;
+    -moz-transition: .3s;
+}
+
+button:hover {
+    background-color: rgb(46, 51, 53);
+    color: white;
+}
+
+
+.ControlBar {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding: 0rem;
+}
+.controlInfo{
+  
+    width: 58%;
+    margin: auto;
+    margin-top: none;
+    margin-bottom: none;
+   
+}
+
+.container {
+    max-width: 60%;
+    margin: 1rem auto;
+   
+}
+.square:hover{
+    box-shadow: none;
+     
+}
+
+.square {
+    background-color: #ffffff;
+    width: 30%;
+    padding-top:10% ;
+    padding-bottom: 10%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 5%;
+    box-shadow:4px 4px 15px 4px rgb(68, 82, 102);
+     /* border: rgb(7, 144, 255) 5px solid; */
+     transition: 1s;
+    -moz-transition: 1s;
+
+
+}
+p {
+    text-align: center;
+    font-size: 1.5rem;
+font-family: "Piedra";
+font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  
+    margin: none;
+}
+h3
+{
+        /* float: left;
+        width: 80%; */
+
+        padding: 1rem;
+         background-color: rgb(46, 51, 53);
+        text-align: center;
+        font-family: 'Montserrat';
+        color: white;
+        margin: 0px;
+        
+}
+
+.newGameConatiner {
+    width: 30%;
+    float: left;
+    padding: none;
+}
+
+#message {
+    width: 40%;
+    margin: none;
+   font-size: small;
+    display: inline-block;
+    text-align: center;
+ 
+   
+}
+
+.modeContainer {
+    width:30%;
+   float: right;
+}
+
+.mode {
+    float: right;
+}
+
+
+#colorAskRect:hover{
+    box-shadow: none;
+}
+
+
+#colorAskRect {
+    margin:auto;
+    width: 58%;
+    padding-bottom:6% ;
+    background-color: RGB(238, 223, 87);
+    margin-top: 2rem;
+    margin-bottom:1rem;
+    
+    box-shadow:4px 4px 15px 4px rgb(46, 46, 46);
+     /* border: rgb(7, 144, 255) 5px solid; */
+     -moz-transition: 1s;
+     transition: 1s;
+}
