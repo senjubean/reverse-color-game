@@ -22,6 +22,9 @@ button:hover {
 
 
 .ControlBar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
     background-color: whitesmoke;
     margin-top: 0px;
     padding: 0rem;
@@ -86,7 +89,7 @@ h3
 }
 
 .newGameConatiner {
-    width: 30%;
+    
     float: left;
     padding: none;
 }
@@ -96,12 +99,13 @@ h3
     margin: none;
    font-size: small;
     display: inline-block;
-    text-align: center;
+    text-align: right;
  
    
 }
 
 .modeContainer {
+    display: flex;
     width:30%;
    float: right;
 }
@@ -128,4 +132,106 @@ h3
      /* border: rgb(7, 144, 255) 5px solid; */
      -moz-transition: 1s;
      transition: 1s;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .controlInfo{
+  
+        width: 70%;
+      
+       
+    }
+    .container {
+        max-width: 70%;
+    }
+
+    #colorAskRect {
+        width: 68%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 940px) {
+
+    .controlInfo{
+  
+        width: 80%;
+      
+       
+    }
+    .container {
+        max-width: 80%;
+    }
+
+    #colorAskRect {
+        width: 78%;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .controlInfo{
+  
+        width: 80%;
+      
+       
+    }
+    .container {
+        max-width: 80%;
+    }
+
+    #colorAskRect {
+        width: 78%;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+
+    button {
+        font-size: .75rem;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+
+    .controlInfo{
+  
+        width: 95%;
+      
+       
+    }
+
+    p {
+        font-size: .5rem;
+    }
+
+    #message {
+       
+        text-align: center;
+     
+       
+    }
+    
 }
